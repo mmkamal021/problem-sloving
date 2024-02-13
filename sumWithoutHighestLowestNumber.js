@@ -44,6 +44,11 @@ function sumWithoutHighestLowestNumber2(array) {
 // console.log(sumWithoutHighestLowestNumber2([1, 1, 11, 2, 2, 3]));
 
 // Sum in array without highest and lowest number and skip highest and lowest duplicate value Using sort, slice, reduce function .
+
+// if the result is negative, a is sorted before b.
+// if the result is positive, b is sorted before a.
+// if the result is 0, no changes are done with the sort order of the two values.
+
 function sumWithoutHighestLowestNumber3(array) {
   if (array == null) return 0;
   return array
